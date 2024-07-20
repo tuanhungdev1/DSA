@@ -1,6 +1,11 @@
-﻿namespace DSA {
+﻿using DSA.DSA;
+
+namespace DSA
+{
     internal class Program {
         static void Main(string[] args) {
+
+
             GameEntry e0 = new GameEntry("Joe", 500);
             GameEntry e1 = new GameEntry("Doe", 400);
             GameEntry e2 = new GameEntry("Andrew", 300);
